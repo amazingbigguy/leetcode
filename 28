@@ -27,3 +27,6 @@ class Solution:
                 k+=1
             next[i]=k
         return next
+        
+# 出现了 TypeError: '>=' not supported between instances of 'str' and 'int' 的问题，但是我不是很明白为什么
+# 会出现这种问题。
